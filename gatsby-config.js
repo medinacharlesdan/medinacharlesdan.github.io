@@ -1,8 +1,9 @@
 module.exports = {
+  // pathPrefix: `/medinacharlesdan.github.io`,
   siteMetadata: {
     title: `Charles Medina`,
     name: `Charles Medina`,
-    siteUrl: `https://novela.narative.co`,
+    siteUrl: `medinacharlesdan.github.io`,
     description: `You can browse my repo,ideas,resources on this blog. Im using Novela Gatsby theme`,
     hero: {
       heading: `Ikinalulugod kitang makilala! Ito ang aking Portfolio 💙 `,
