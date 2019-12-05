@@ -1,34 +1,27 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
+    title: `Charles Medina`,
+    name: `Charles Medina`,
     siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    description: `You can browse my repo,ideas,resources on this blog. Im using Novela Gatsby theme`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Ikinalulugod kitang makilala! Ito ang aking Portfolio 💙 `,
       maxWidth: 652,
     },
     social: [
-      {
-        name: `twitter`,
-        url: `https://twitter.com/narative`,
-      },
+     
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/medinacharlesdan`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://www.instagram.com/charlessmedina/`,
+      },{
+        name: `facebook`,
+        url: `https://www.facebook.com/MedinaCharlesD`,
       },
-      {
-        name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
-      },
+      
     ],
   },
   plugins: [
@@ -48,8 +41,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Charles Medina`,
+        short_name: `Charles Medina`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,

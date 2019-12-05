@@ -1,17 +1,12 @@
-- name: Dennis Brotzky
+- name: Charles Medina
   bio: |
-    Written by You. This is where your author bio lives. Share your work, your
-    joys and of course, your Twitter handle.
-  avatar: ./avatars/dennis-brotzky.jpg
+    Just your average Jr. Full Stack Web Developer. Currently accepting freelance projects. Dont hesitate to contact me via email.
+  avatar: ./avatars/profilepic.webp
   featured: true
   social:
     - name: github
-      url: https://github.com
-    - name: twitter
-      url: https://github.com
+      url: https://github.com/medinacharlesdan
+    - name: facebook
+      url: https://www.facebook.com/MedinaCharlesD
     - name: instagram
-      url: https://github.com
-    - name: dribbble
-      url: https://github.com
-    - name: linkedin
-      url: https://github.com
+      url: https://www.instagram.com/charlessmedina/
