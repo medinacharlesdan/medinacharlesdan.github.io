@@ -4,8 +4,10 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -d public -b master -r https://github.com/medinacharlesdan/medinacharlesdan.github.io.git"
   },
   "dependencies": {
     "@narative/gatsby-theme-novela": "^0.*",

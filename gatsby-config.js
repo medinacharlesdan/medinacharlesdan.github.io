@@ -4,9 +4,9 @@ module.exports = {
     title: `Charles Medina`,
     name: `Charles Medina`,
     siteUrl: `https://medinacharlesdan.github.io`,
-    description: `You can browse my repo,ideas,resources on this blog. Im using Novela Gatsby theme`,
+    description: `You can browse my repos,ideas,resources on this blog.`,
     hero: {
-      heading: `Ikinalulugod kitang makilala! Ito ang aking Portfolio 💙 `,
+      heading: `Jr. Fullstack Web Developer. Browse my repos,ideas,resources on this page. 🌎`,
       maxWidth: 652,
     },
     social: [
