@@ -5,7 +5,7 @@ module.exports = {
     siteUrl: `https://novela.narative.co`,
     description: `You can browse my repo,ideas,resources on this blog. Im using Novela Gatsby theme`,
     hero: {
-      heading: `Ikinalulugod kitang makilala! Ito ang aking Portfolio 💙 `,
+      heading: `Charles Dan Medina 💙 `,
       maxWidth: 652,
     },
     social: [

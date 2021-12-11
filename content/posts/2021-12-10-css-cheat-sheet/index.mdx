@@ -1,0 +1,189 @@
+---
+title: 2021 CSS Cheatsheet
+author: Charles Medina
+date: 2021-12-10
+hero: ./images/css_hero.png
+excerpt: A post for basic CSS Syntax, selectors & properties, very useful for beginners.
+---
+
+## CSS Definition
+
+CSS, or Cascading Style Sheets, is a language that is used in combination with HTML that customizes how HTML elements will appear. CSS can define styles and change the layout and design of a sheet.
+
+## Create a CSS file
+
+You can create a css file by attaching **.css** extension
+
+## Attaching CSS to HTML
+
+There are two ways of doing it. 
+
+- Create a separate CSS file.
+- Directly into the head tag
+
+```html
+<head>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+```
+
+```html
+<head>
+ <style>
+  p{
+    font-size: 1000px;
+  }
+ </style>
+</head>
+```
+
+## Styling an element
+
+Multiple ways of doing it. Here are some examples.
+
+- Inline styles
+
+CSS styles can be directly added to HTML elements by using the style attribute in the element’s opening tag. Each style declaration is ended with a semicolon. Styles added in this manner are known as inline styles.
+
+```html
+<h2 style="text-align: right;">Right Aligned</h2>
+ 
+<p style="background-color: blue; font-size: 18px;">BG Blue, 18-point text</p>
+```
+
+- Class and ID selectors
+
+CSS classes can be reusable and applied to many elements. Class selectors are denoted with a period **.** followed by the class name. CSS ID selectors should be unique and used to style only a single element. ID selectors are denoted with a hash sign **#** followed by the id name.
+
+```css
+/* Selects all elements with class="image_small" */
+.image_small {
+}
+ 
+/* Selects element with id="first-header" */
+#first-header {
+}
+```
+
+## Selectors can be chained
+
+```css
+/* Selects all elements with class="image_small" and class="image_blue_section" */
+.image_small.image_blue_section {
+}
+```
+
+## Selectors can be grouped
+
+```css
+/* Selects elements h1 and h2 and applies color style: blue */
+h1,h2 {
+ color:blue;
+}
+```
+
+## Selectors examples
+
+### CSS Type Selectors
+
+CSS type selectors are used to match all elements of a given type or tag name. Unlike for HTML syntax, we do not include the angle brackets when using type selectors for tag names. When using type selectors, elements are matched regardless of their nesting level in the HTML.
+
+```css
+/* Selects all <div> tags */
+div {
+}
+```
+
+### CSS class selectors
+
+The CSS class selector matches elements based on the contents of their class attribute. 
+```css
+/*For selecting elements having cell as the value of the class attribute, a . needs to be prepended.*/
+.cell {
+  color: #000;
+}
+
+```
+
+### CSS ID selectors
+
+The CSS ID selector matches elements based on the contents of their id attribute. 
+```css
+/*For selecting the element having cell as the value of the id attribute, a # needs to be prepended.*/
+#cell {
+  color: #000;
+}
+
+```
+
+### CSS descendant selector
+
+The CSS descendant selector combinator is used to match elements that are descended from another matched selector. They are denoted by a single space between each selector and the descended selector. All matching elements are selected regardless of the nesting level in the HTML.
+
+```css
+div p { }
+ 
+section ol li { }
+```
+
+## CSS Properties Syntax
+
+ The property name and value are separated by a colon, and the entire declaration must be terminated by a semi-colon.
+ These declarations are called  **key-value pair**.
+
+```css
+
+/* 
+CSS declaration format:
+property-name: value;
+*/
+ 
+/* CSS declarations */
+text-align: center;
+color: purple;
+width: 100px;
+
+```
+
+## CSS properties examples 
+
+Below is a list of example CSS properties/values that you can use to style an element.
+
+```css
+div{
+  /*margin*/
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  /*padding*/
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  /*font-color*/
+  color:red;
+  color:#000;
+  color: rgb(255,255,255);
+  /*font-size*/
+  font-size:14px;
+  /*font-weight*/
+  font-weight:600;
+  /*display*/
+  display:block;
+  display:flex;
+  display:grid;
+  display:none;
+  display:inline-block;
+  /*position*/
+  position: relative;
+  position: absolute;
+  position: sticky;
+  position: fixed;
+  /*sizing*/
+  width:100px;
+  height:100px;
+  width:90vh;
+}
+```
+
