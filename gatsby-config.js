@@ -3,7 +3,7 @@ module.exports = {
     title: `Charles Medina`,
     name: `Charles Medina`,
     siteUrl: `https://novela.narative.co`,
-    description: `You can browse my repo,ideas,resources on this blog. Im using Novela Gatsby theme`,
+    description: `You can browse my repo,ideas,resources on this blog.`,
     hero: {
       heading: `Charles Dan Medina 💙 `,
       maxWidth: 652,
